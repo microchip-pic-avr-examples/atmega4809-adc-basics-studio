@@ -24,7 +24,7 @@ This is an example of how to get started with the ADC on the ATMEGA4809. This is
     - [MPLAB Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
     - [Studio Data visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
 - ATmega_DFP 1.4.351 or later
-- AVR/GNU C Compiler 5.4.0 (buildt into studio)
+- AVR/GNU C Compiler 5.4.0 (built into studio)
 
 ## Hardware Used
 
@@ -36,7 +36,7 @@ This is an example of how to get started with the ADC on the ATMEGA4809. This is
 
 ## Operation
 
-1. Open `ADCBasicswithmegaAVR0-Series.atsln` in Atmel Studio
+1. Open `ADCBasicswithmegaAVR0-Series.atsln` in Atmel Studio.
 2. Connect the ATmega4809 Xplained Pro to your computer with a micro usb cable.
 3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
 4. Open your favorite terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
