@@ -36,7 +36,7 @@ This is an example of how to get started with the ADC on the ATMEGA4809. This is
 
 ## Operation
 
-1. Open `ADCBasicswithmegaAVR0-Series.atsln` in Atmel Studio.
+1. Open `atmega4809-adc-basics-studio.atsln` in Atmel Studio.
 2. Connect the ATmega4809 Xplained Pro to your computer with a micro usb cable.
 3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
 4. Open your favorite terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
