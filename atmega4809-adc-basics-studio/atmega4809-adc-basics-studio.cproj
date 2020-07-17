@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>ADCBasicswithmegaAVR0-Series</AssemblyName>
-    <Name>ADCBasicswithmegaAVR0-Series</Name>
-    <RootNamespace>ADCBasicswithmegaAVR0-Series</RootNamespace>
+    <AssemblyName>atmega4809-adc-basics-studio</AssemblyName>
+    <Name>atmega4809-adc-basics-studio</Name>
+    <RootNamespace>atmega4809-adc-basics-studio</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
