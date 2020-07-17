@@ -10,7 +10,7 @@ There are four modes we will explore in this example:
 *  ADC Window Comparator mode
 *  ADC Sample Accumulator mode
 
-This is an example of how to get started with the ADC on the ATMEGA4809. This is based on the application note [AN2573](#Related-Documentation).
+This is an example of how to get started with the ADC on the ATMEGA4809. This is based on the application note [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379).
 
 ## Related Documentation
 
@@ -41,7 +41,7 @@ This is an example of how to get started with the ADC on the ATMEGA4809. This is
 3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
 4. Open your favorite terminal application or Data visualizer and open the serial port associated with the Xplained Pro.
 
-As mentioned in the appnote [AN2573](#Related-Documentation) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
+As mentioned in the appnote [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379) you can change the voltage level of the adc input port and the approximated value will be shown over UART through data visualizer.
 ## Conclusion
 
-We here shown how to setup and get started with the ADC basics project. For more details about this example and how the ADC works please see the [AN2573](#Related-Documentation) Application Note.
+We here shown how to setup and get started with the ADC basics project. For more details about this example and how the ADC works please see the [AN2573](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en601379) Application Note.
