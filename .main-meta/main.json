@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.atmega4809-adc-basics-studio",
+        "version": "1.0.0",
+        "displayName": "ADC Basics with tinyAVR 0- and 1-series, and megaAVR 0-series",
+        "projectName": "atmega4809-adc-basics-studio",
+        "shortDescription": "This Atmel Studio 7 example demonstrates how to get started with the ADC on the ATmega4809",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "STUDIO",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "^1.4.351"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "START",
+            "semverRange": ">=1.7.360"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,37 +32,52 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATmega4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+                "Peripherals",
+                "VREF"
             ],
             [
-               "Peripherals", ""
-            ]            			
+                "Peripherals",
+                "ADC"
+            ],
+            [
+                "Peripherals",
+                "USART"
+            ],
+            [
+                "Development Kit",
+                "ATmega4809 Xplained Pro"
+            ],
+            [
+                "Supporting Tools",
+                "MPLAB Data Visualizer"
+            ]
         ],
         "peripherals": [
-            "",""
+            "VREF",
+            "ADC",
+            "USART"
         ],
         "keywords": [
             "",
-            ""			
+            ""
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
