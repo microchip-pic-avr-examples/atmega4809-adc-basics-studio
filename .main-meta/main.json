@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-adc-basics-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "ADC Basics with tinyAVR 0- and 1-series, and megaAVR 0-series",
         "projectName": "atmega4809-adc-basics-studio",
         "shortDescription": "This Atmel Studio 7 example demonstrates how to get started with the ADC on the ATmega4809",
@@ -14,7 +14,7 @@
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -65,8 +65,13 @@
             "USART"
         ],
         "keywords": [
-            "",
-            ""
+            "LED",
+            "START",
+            "Sample Accumulation",
+            "Window Compare",
+            "Free-Running",
+            "MPLAB Data Visualizer",
+            "SAR ADC"
         ],
         "additionalData": {
             "longDescription": {
